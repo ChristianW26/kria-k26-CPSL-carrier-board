@@ -2534,7 +2534,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063c44bc2"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -2606,7 +2606,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000063c44bc2"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
