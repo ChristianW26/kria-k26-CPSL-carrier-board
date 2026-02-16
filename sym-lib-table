@@ -1,3 +1,4 @@
 (sym_lib_table
+  (version 7)
   (lib (name "kria-k26-devboard")(type "KiCad")(uri "${KIPRJMOD}/lib/kria-k26-devboard.kicad_sym")(options "")(descr ""))
 )

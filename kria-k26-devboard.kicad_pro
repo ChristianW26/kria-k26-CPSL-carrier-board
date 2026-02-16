@@ -1945,6 +1945,14 @@
       "Debug and JTAG"
     ],
     [
+      "822e1ac9-b545-4f5a-99c6-f4ce1e3c2f79",
+      "CAN"
+    ],
+    [
+      "aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b",
+      "LVDS"
+    ],
+    [
       "00000000-0000-0000-0000-000065aaf1bf",
       "Reset logic"
     ],

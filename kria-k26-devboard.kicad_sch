@@ -8521,6 +8521,90 @@
 			)
 		)
 	)
+	(sheet
+		(at 110.49 95.25)
+		(size 40.64 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "822e1ac9-b545-4f5a-99c6-f4ce1e3c2f79")
+		(property "Sheetname" "CAN"
+			(at 110.49 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 110.49 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 142.24)
+		(size 40.64 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b")
+		(property "Sheetname" "LVDS"
+			(at 110.49 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LVDS.kicad_sch"
+			(at 110.49 187.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
+					(page "9")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
