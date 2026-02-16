@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.131
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -1943,10 +1943,6 @@
     [
       "00000000-0000-0000-0000-0000625b0244",
       "Debug and JTAG"
-    ],
-    [
-      "00000000-0000-0000-0000-000063cb76cf",
-      "Camera interface"
     ],
     [
       "00000000-0000-0000-0000-000065aaf1bf",

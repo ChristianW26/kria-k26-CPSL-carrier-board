@@ -4801,12 +4801,6 @@
 		(uuid "c538cd53-bd7d-461b-a60b-ac6c99d5c9b6")
 	)
 	(junction
-		(at 365.125 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbc75f6f-a6a4-42cd-a2c6-28f1440e0a69")
-	)
-	(junction
 		(at 311.15 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4854,7 +4848,11 @@
 	)
 	(no_connect
 		(at 373.38 134.62)
-		(uuid "54e11617-9150-4dbd-9db6-b71ea1db8ca4")
+		(uuid "19127524-e8ea-42a2-a9a8-e7e846b80245")
+	)
+	(no_connect
+		(at 373.38 149.86)
+		(uuid "9a74c9f1-c804-4cb0-bf98-b0f0254f8309")
 	)
 	(no_connect
 		(at 303.53 125.73)
@@ -5106,16 +5104,6 @@
 	)
 	(wire
 		(pts
-			(xy 352.425 149.86) (xy 365.125 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fbac868-0105-485c-82d7-3e5b6dfc11ee")
-	)
-	(wire
-		(pts
 			(xy 292.735 137.16) (xy 306.07 137.16)
 		)
 		(stroke
@@ -5353,16 +5341,6 @@
 			(type default)
 		)
 		(uuid "4a3a6375-e1be-4ad5-8588-54d0c96fb798")
-	)
-	(wire
-		(pts
-			(xy 365.125 133.985) (xy 365.125 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4eefabbb-9b88-4de3-b436-18a4c57cb3d3")
 	)
 	(wire
 		(pts
@@ -6373,16 +6351,6 @@
 			(type default)
 		)
 		(uuid "d1c9e93c-9963-40d4-a26d-797b0b07753b")
-	)
-	(wire
-		(pts
-			(xy 365.125 149.86) (xy 373.38 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d22679a8-674b-4847-a52b-a737669b60bf")
 	)
 	(wire
 		(pts
@@ -10893,17 +10861,6 @@
 		)
 		(uuid "e92c3f09-8647-4250-abab-ed8da48da536")
 	)
-	(hierarchical_label "CAM_RST"
-		(shape input)
-		(at 352.425 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f480c73e-69b7-4362-8efb-c8500719c0d6")
-	)
 	(hierarchical_label "~{M2_PERST}"
 		(shape input)
 		(at 352.425 152.4 180)
@@ -13036,120 +12993,6 @@
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
 					(reference "TP20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kria-k26-devboard:TP_0.75mm_SMD")
-		(at 365.125 133.985 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006371f705")
-		(property "Reference" "TP22"
-			(at 365.125 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TP_0.75mm_SMD"
-			(at 367.665 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "kria-k26-devboard-footprints:TP_SMD_0.75mm"
-			(at 360.045 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 357.505 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 365.125 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 380.365 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 382.905 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 385.445 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 387.985 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "255c6093-2f53-4ce2-882d-02219d437a5b")
-		)
-		(instances
-			(project "kria-k26-devboard"
-				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/00000000-0000-0000-0000-000065aaf1bf"
-					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -16390,7 +16233,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-000065cba321")
 		(property "Reference" "U32"
@@ -18392,7 +18235,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006605cefb")
 		(property "Reference" "C135"
@@ -18632,7 +18475,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006606bb6a")
 		(property "Reference" "C133"
@@ -19137,7 +18980,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-0000688c4d88")
 		(property "Reference" "D4"
@@ -19708,7 +19551,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000694166b5")
 		(property "Reference" "U35"
 			(at 212.09 189.865 0)
