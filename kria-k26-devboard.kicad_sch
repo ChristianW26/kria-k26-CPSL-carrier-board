@@ -7254,7 +7254,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
-					(page "11")
+					(page "10")
 				)
 			)
 		)
@@ -7578,7 +7578,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
-					(page "16")
+					(page "15")
 				)
 			)
 		)
@@ -7650,7 +7650,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
-					(page "14")
+					(page "13")
 				)
 			)
 		)
@@ -7722,7 +7722,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
-					(page "18")
+					(page "17")
 				)
 			)
 		)
@@ -7884,7 +7884,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
-					(page "17")
+					(page "16")
 				)
 			)
 		)
@@ -7946,7 +7946,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
-					(page "12")
+					(page "11")
 				)
 			)
 		)
@@ -8200,7 +8200,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
-					(page "13")
+					(page "12")
 				)
 			)
 		)
@@ -8292,7 +8292,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
-					(page "15")
+					(page "14")
 				)
 			)
 		)
@@ -8354,7 +8354,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
-					(page "19")
+					(page "18")
 				)
 			)
 		)
@@ -8516,55 +8516,13 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
-					(page "10")
+					(page "9")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 110.49 95.25)
-		(size 40.64 40.64)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "822e1ac9-b545-4f5a-99c6-f4ce1e3c2f79")
-		(property "Sheetname" "CAN"
-			(at 110.49 94.5384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "CAN.kicad_sch"
-			(at 110.49 136.4746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "kria-k26-devboard"
-				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 110.49 142.24)
+		(at 110.49 90.17)
 		(size 40.64 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8579,8 +8537,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b")
-		(property "Sheetname" "LVDS"
-			(at 110.49 141.5284 0)
+		(property "Sheetname" "IWR1843BOOST"
+			(at 110.49 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8589,7 +8547,7 @@
 			)
 		)
 		(property "Sheetfile" "LVDS.kicad_sch"
-			(at 110.49 187.2746 0)
+			(at 110.49 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8600,7 +8558,7 @@
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
-					(page "9")
+					(page "8")
 				)
 			)
 		)

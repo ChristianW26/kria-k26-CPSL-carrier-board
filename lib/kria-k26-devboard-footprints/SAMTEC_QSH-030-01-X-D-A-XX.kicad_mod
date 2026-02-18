@@ -675,7 +675,7 @@
 		(uuid "ede50d78-b63d-453b-9cc6-a80b1407d458")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/CKW09/Downloads/QSH-030-01-L-D-A/QSH-030-01-X-D-A-XX.step"
+	(model "${KIPRJMOD}/lib/3d-models/QSH-030-01-L-D-A--3DModel-STEP-56544.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
