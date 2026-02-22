@@ -1,0 +1,229 @@
+(footprint "SOT95P237X111-3N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "27 V ESD Protection Diode Dual Line CAN Bus Protector")
+	(property "Reference" "REF**"
+		(at 0.127 -2.3114 0)
+		(layer "F.SilkS")
+		(uuid "59719684-fb06-41f0-bca6-6e4e52e675f1")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT95P237X111-3N"
+		(at 4.5974 2.1336 0)
+		(layer "F.Fab")
+		(uuid "354276da-e17b-4e34-bad5-b0da952bed83")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nup2105l-d.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "953eb05c-a668-4099-89f9-b983a634a544")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "27 V ESD Protection Diode Dual Line CAN Bus Protector"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b36c2d48-9486-457d-94d6-2f1e0bc21a47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.1315 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e340a3b-8932-416e-97f3-46327ea46c12")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 -0.6135)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "264fd7fa-b9c5-42e5-af4e-4b8724d665e7")
+	)
+	(fp_line
+		(start 0.65 0.6135)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "893b76f3-a107-4ed8-b680-9693154a9a94")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.1315 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3655c991-a207-48cb-a954-3def195773dc")
+	)
+	(fp_circle
+		(center -2.25 -0.95)
+		(end -2.15 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a67d5d5d-1733-42f9-9136-26bb95d03952")
+	)
+	(fp_line
+		(start -1.925 -1.7)
+		(end 1.925 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68ed818c-280a-4479-8de6-d555e0f682a2")
+	)
+	(fp_line
+		(start -1.925 1.7)
+		(end -1.925 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12aaeefd-d76a-4258-90b0-5f5421c8a1db")
+	)
+	(fp_line
+		(start 1.925 -1.7)
+		(end 1.925 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46605537-a5e9-4f7d-aa22-64b6d3998a28")
+	)
+	(fp_line
+		(start 1.925 1.7)
+		(end -1.925 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8610635-2395-4312-92a3-68f236085034")
+	)
+	(fp_line
+		(start -0.65 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e8840a5-2ec8-436d-a009-0b00f9c68c3a")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0f7501b-ead8-4337-8156-187e138009ce")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47c897d4-a41f-4824-b680-bcab95329a2d")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "808aeacc-0de4-46f8-b5a0-4f425926c9ab")
+	)
+	(fp_circle
+		(center -2.25 -0.95)
+		(end -2.15 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d471d942-2a44-4441-be7b-ef5fa084957f")
+	)
+	(pad "1" smd rect
+		(at -1.06 -0.95)
+		(size 1.23 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "5d12b70a-b8f4-4314-a465-57af94ede39c")
+	)
+	(pad "2" smd rect
+		(at -1.06 0.95)
+		(size 1.23 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "25300f65-be63-41a3-849b-697eae8da4e8")
+	)
+	(pad "3" smd rect
+		(at 1.06 0)
+		(size 1.23 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "9e70e8bd-9f72-404a-ad7b-a6f378195ff7")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d-models/NUP2105LT1G.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

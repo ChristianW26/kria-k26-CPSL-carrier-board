@@ -1653,15 +1653,7 @@
       },
       {
         "netclass": "LVDS",
-        "pattern": "/IWR1843BOOST/LVDS_CLKN"
-      },
-      {
-        "netclass": "LVDS",
-        "pattern": "/IWR1843BOOST/LVDS_0N"
-      },
-      {
-        "netclass": "LVDS",
-        "pattern": "/IWR1843BOOST/LVDS_0P"
+        "pattern": "/IWR1843BOOST/LVDS*"
       }
     ]
   },
