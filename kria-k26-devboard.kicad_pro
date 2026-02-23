@@ -1653,7 +1653,7 @@
       },
       {
         "netclass": "LVDS",
-        "pattern": "/IWR1843BOOST/LVDS*"
+        "pattern": ".*HPA0[0-7].*"
       }
     ]
   },
