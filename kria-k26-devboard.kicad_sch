@@ -735,10 +735,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "HPA[7..0]"
+	(bus_alias "HPA[6..0]"
 		(members "HPA01_P" "HPA01_N" "HPA02_P" "HPA02_N" "HPA03_P" "HPA03_N" "HPA04_P"
 			"HPA04_N" "HPA00_CC_P" "HPA00_CC_N" "HPA05_CC_P" "HPA05_CC_N" "HPA06_P"
-			"HPA06_N" "HPA07_P" "HPA07_N"
+			"HPA06_N"
 		)
 	)
 	(text "Logos"
@@ -7147,7 +7147,7 @@
 				(justify left)
 			)
 		)
-		(pin "{HPA[7..0]}" input
+		(pin "{HPA[6..0]}" input
 			(at 179.07 99.06 180)
 			(uuid "7374d26a-9fd5-48b8-b15e-1a42427b30da")
 			(effects
@@ -8481,7 +8481,7 @@
 				(justify right)
 			)
 		)
-		(pin "{HPA[7..0]}" input
+		(pin "{HPA[6..0]}" input
 			(at 151.13 99.06 0)
 			(uuid "18eef204-eacb-43ae-957a-9cffdff3a7ac")
 			(effects
