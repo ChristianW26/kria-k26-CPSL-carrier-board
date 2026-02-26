@@ -1095,6 +1095,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "kria-k26-devboard:PinHeader_1x2_P2.54mm_Drill1.02mm"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PinHeader_1x2_P2.54mm_Drill1.02mm"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kria-k26-devboard-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.pl/datasheet/2/181/M20-999-1218971.pdf"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "M20-9990246"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Harwin"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PinHeader_1x2_P2.54mm_Drill1.02mm_1_1"
+				(rectangle
+					(start 4.191 -0.254)
+					(end 3.683 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.191 -2.794)
+					(end 3.683 -2.286)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 -3.81)
+					(end 2.54 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "kria-k26-devboard:QTH-030-01-X-D-A"
 			(pin_names
 				(offset 1.016)
@@ -3044,7 +3216,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 2.54 0)
+				(at -17.272 19.304 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3052,7 +3224,7 @@
 				)
 			)
 			(property "Value" "TCAN1042HVDQ1"
-				(at 0 0 0)
+				(at -8.636 17.018 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3107,52 +3279,15 @@
 				)
 			)
 			(symbol "TCAN1042HVDQ1_0_1"
-				(polyline
-					(pts
-						(xy -17.78 15.24) (xy -17.78 -15.24)
-					)
+				(rectangle
+					(start -17.78 15.24)
+					(end -1.27 -15.24)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -17.78 -15.24) (xy 17.78 -15.24)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 15.24) (xy -17.78 15.24)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 17.78 -15.24) (xy 17.78 15.24)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin power_in line
@@ -3246,7 +3381,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 10.16 180)
+					(at 3.81 10.16 180)
 					(length 5.08)
 					(name "CANH"
 						(effects
@@ -3264,7 +3399,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 22.86 -5.08 180)
+					(at 3.81 -5.08 180)
 					(length 5.08)
 					(name "CANL"
 						(effects
@@ -3282,7 +3417,7 @@
 					)
 				)
 				(pin power_in line
-					(at 22.86 -10.16 180)
+					(at 3.81 -10.16 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -3481,6 +3616,12 @@
 		(uuid "138e7ae1-2a94-4e27-9ca2-21582f84629c")
 	)
 	(junction
+		(at 218.44 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18efd543-0df6-48bd-8637-af4e18c1fb96")
+	)
+	(junction
 		(at 54.61 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3511,12 +3652,6 @@
 		(uuid "834dffbf-0c81-404b-b15b-4fe8384d5fe9")
 	)
 	(junction
-		(at 218.44 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85f8f05d-30c9-491a-9beb-069b9ddb749f")
-	)
-	(junction
 		(at 54.61 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3529,6 +3664,12 @@
 		(uuid "a669581d-0a7c-4b69-a73b-143d60164ffb")
 	)
 	(junction
+		(at 218.44 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a893be76-7e6f-4f04-9f7f-f7ba2e4a7795")
+	)
+	(junction
 		(at 54.61 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3539,12 +3680,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb762deb-de21-4c55-96e3-7a5f804604fc")
-	)
-	(junction
-		(at 218.44 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd431a9d-309e-450a-996b-839437fe7ba4")
 	)
 	(junction
 		(at 250.19 25.4)
@@ -3902,6 +4037,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 48.26) (xy 218.44 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07060a56-30e1-4d2c-9e99-72fdabd4c687")
+	)
+	(wire
+		(pts
 			(xy 53.34 63.5) (xy 54.61 63.5)
 		)
 		(stroke
@@ -3929,6 +4074,16 @@
 			(type default)
 		)
 		(uuid "0e740bea-8c3d-41fd-9ca9-c6b9c5fbc57b")
+	)
+	(wire
+		(pts
+			(xy 240.03 31.75) (xy 240.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a9cb78-9fc3-4f24-b434-4df1b7670615")
 	)
 	(wire
 		(pts
@@ -4012,13 +4167,33 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 54.61) (xy 222.25 54.61)
+			(xy 199.39 34.29) (xy 196.85 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26bd39ed-17f7-44ce-900f-5996c0a4aacd")
+		(uuid "24acd52a-ee36-490f-8d78-8c29c4e252a4")
+	)
+	(wire
+		(pts
+			(xy 196.85 54.61) (xy 198.12 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26db1fda-51f1-4d5d-9696-5d158b4ee056")
+	)
+	(wire
+		(pts
+			(xy 240.03 39.37) (xy 240.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2751f5ba-58c3-4842-be2c-4c8bfd1ffc32")
 	)
 	(wire
 		(pts
@@ -4079,6 +4254,16 @@
 			(type default)
 		)
 		(uuid "2aa3ebd5-2bf2-4f46-adda-e279c3f8a6f9")
+	)
+	(wire
+		(pts
+			(xy 200.66 54.61) (xy 218.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2acbaba6-6026-41dc-b6f8-ba8cc2405f29")
 	)
 	(wire
 		(pts
@@ -4152,16 +4337,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 34.29) (xy 262.89 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37c76c15-1113-428a-a766-b4160f04d1cc")
-	)
-	(wire
-		(pts
 			(xy 24.13 160.02) (xy 25.4 160.02)
 		)
 		(stroke
@@ -4209,6 +4384,16 @@
 			(type default)
 		)
 		(uuid "3b3e9f0e-a7f6-4093-bb3f-9c4029ad6f2d")
+	)
+	(wire
+		(pts
+			(xy 199.39 27.94) (xy 199.39 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cac6860-d71f-4a23-9f89-ec549444dedc")
 	)
 	(bus
 		(pts
@@ -4299,6 +4484,16 @@
 			(type default)
 		)
 		(uuid "518155b7-62e8-471a-b1b7-c0e2b0c54d59")
+	)
+	(wire
+		(pts
+			(xy 247.65 34.29) (xy 262.89 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ac49a8-d682-4234-bba7-c08566ee1d9e")
 	)
 	(wire
 		(pts
@@ -4422,6 +4617,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 27.94) (xy 218.44 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a2f823-4181-4bc4-96f6-370e3793e09b")
+	)
+	(wire
+		(pts
 			(xy 133.35 58.42) (xy 133.35 60.96)
 		)
 		(stroke
@@ -4429,6 +4634,16 @@
 			(type default)
 		)
 		(uuid "75b6f91f-e8da-468b-9315-e15703256a24")
+	)
+	(wire
+		(pts
+			(xy 217.17 34.29) (xy 218.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7611bb56-bee6-4235-b94e-ea3d5c4d920a")
 	)
 	(wire
 		(pts
@@ -4452,7 +4667,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 34.29) (xy 218.44 34.29)
+			(xy 240.03 34.29) (xy 247.65 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4552,6 +4767,26 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 27.94) (xy 218.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91a1a0bc-968d-4932-aa53-29c34a3608a5")
+	)
+	(wire
+		(pts
+			(xy 217.17 49.53) (xy 218.44 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bc7700-a1b9-4c4f-b30d-db8b51822d6e")
+	)
+	(wire
+		(pts
 			(xy 152.4 48.26) (xy 163.83 48.26)
 		)
 		(stroke
@@ -4580,6 +4815,16 @@
 		)
 		(uuid "9e90a9d1-3d79-4b13-90b5-d215c62d521c")
 	)
+	(wire
+		(pts
+			(xy 218.44 52.07) (xy 218.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eeb7e1f-b318-4561-8250-049d8cec2c82")
+	)
 	(bus
 		(pts
 			(xy 93.98 46.99) (xy 93.98 48.26)
@@ -4599,6 +4844,16 @@
 			(type default)
 		)
 		(uuid "a1ce00e1-b0e3-4421-9ac2-1d698db96aac")
+	)
+	(wire
+		(pts
+			(xy 218.44 31.75) (xy 240.03 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d7e2db-03ab-4792-be6a-54bc67c37a4f")
 	)
 	(wire
 		(pts
@@ -4639,6 +4894,16 @@
 			(type default)
 		)
 		(uuid "a7aae2cf-7227-43bb-98c7-88fa18cf4e10")
+	)
+	(wire
+		(pts
+			(xy 196.85 49.53) (xy 200.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8636e64-409d-4b80-a3cb-48eea6a278f5")
 	)
 	(wire
 		(pts
@@ -4690,16 +4955,6 @@
 		)
 		(uuid "b3251da9-6d32-477f-9eeb-b345d18bd42d")
 	)
-	(wire
-		(pts
-			(xy 218.44 34.29) (xy 218.44 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b38770c7-f86e-4b95-9766-a6eaee7f7b36")
-	)
 	(bus
 		(pts
 			(xy 93.98 81.28) (xy 93.98 86.36)
@@ -4709,16 +4964,6 @@
 			(type default)
 		)
 		(uuid "b6393157-2f87-463c-9886-a6146880b46a")
-	)
-	(wire
-		(pts
-			(xy 242.57 49.53) (xy 242.57 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b64a2fe2-0ae5-424a-bee8-e30febe0c697")
 	)
 	(wire
 		(pts
@@ -4752,6 +4997,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 34.29) (xy 218.44 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf813bb0-2fb0-4350-abb7-b959776df2bd")
+	)
+	(wire
+		(pts
 			(xy 53.34 88.9) (xy 91.44 88.9)
 		)
 		(stroke
@@ -4759,16 +5014,6 @@
 			(type default)
 		)
 		(uuid "c029919b-08ba-4bf9-9b76-89939a5c8cad")
-	)
-	(wire
-		(pts
-			(xy 218.44 48.26) (xy 218.44 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c074e25e-162e-49ea-87de-778d134570c2")
 	)
 	(wire
 		(pts
@@ -4789,6 +5034,36 @@
 			(type default)
 		)
 		(uuid "c3089230-7606-4bdc-bd45-047daa836f3e")
+	)
+	(wire
+		(pts
+			(xy 218.44 52.07) (xy 240.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3154c08-2471-49ac-9584-5548b52e8717")
+	)
+	(wire
+		(pts
+			(xy 200.66 49.53) (xy 200.66 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e38c26-2d91-4f5a-9c2a-c312dca592a5")
+	)
+	(wire
+		(pts
+			(xy 217.17 52.07) (xy 218.44 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c788c1-1d69-4a35-8fa6-773ef205c86d")
 	)
 	(wire
 		(pts
@@ -4890,16 +5165,6 @@
 		)
 		(uuid "d70c375a-e6e2-4afd-a94e-31341000a868")
 	)
-	(wire
-		(pts
-			(xy 218.44 34.29) (xy 247.65 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8a26641-aa29-4c0d-a5a7-ccdbd0464fdd")
-	)
 	(bus
 		(pts
 			(xy 93.98 55.88) (xy 93.98 58.42)
@@ -4972,7 +5237,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 39.37) (xy 252.73 39.37)
+			(xy 240.03 39.37) (xy 252.73 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4989,6 +5254,16 @@
 			(type default)
 		)
 		(uuid "e477843f-1796-482f-9ade-89030ead0bd2")
+	)
+	(wire
+		(pts
+			(xy 217.17 31.75) (xy 218.44 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c87171-383b-479c-8eb3-2f5adf96ef1e")
 	)
 	(wire
 		(pts
@@ -5112,7 +5387,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 54.61) (xy 222.25 57.15)
+			(xy 198.12 54.61) (xy 198.12 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5132,16 +5407,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 49.53) (xy 242.57 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8627eb4-4175-449c-a3f2-4960f133e7d5")
-	)
-	(wire
-		(pts
 			(xy 261.62 36.83) (xy 261.62 43.18)
 		)
 		(stroke
@@ -5149,16 +5414,6 @@
 			(type default)
 		)
 		(uuid "f8a7a434-974a-4f2e-a3b9-d2dedd4a93ce")
-	)
-	(wire
-		(pts
-			(xy 215.9 49.53) (xy 218.44 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9555d79-d975-4eb3-bba4-b57c4e03937d")
 	)
 	(label "LVDS_VALIDN"
 		(at 68.58 53.34 180)
@@ -5978,6 +6233,122 @@
 		)
 	)
 	(symbol
+		(lib_id "kria-k26-devboard:PinHeader_1x2_P2.54mm_Drill1.02mm")
+		(at 217.17 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19891534-303b-42a8-8910-60108a9d53e5")
+		(property "Reference" "J15"
+			(at 210.82 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PinHeader_1x2_P2.54mm_Drill1.02mm"
+			(at 213.36 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/181/M20-999-1218971.pdf"
+			(at 212.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "M20-9990246"
+			(at 214.376 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 212.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 196.85 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 196.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35c4187b-4e9c-4342-b993-0c071f72aaac")
+		)
+		(pin "2"
+			(uuid "6a4361af-0e59-41bb-9ec9-50f89d15cda7")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 250.19 24.13 0)
 		(mirror x)
@@ -6428,6 +6799,123 @@
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:PinHeader_1x2_P2.54mm_Drill1.02mm")
+		(at 217.17 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58ccc0c3-3f31-4b0e-b477-22b2f5007065")
+		(property "Reference" "J14"
+			(at 210.82 34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PinHeader_1x2_P2.54mm_Drill1.02mm"
+			(at 213.36 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm"
+			(at 212.09 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/181/M20-999-1218971.pdf"
+			(at 212.09 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "M20-9990246"
+			(at 214.63 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 212.09 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 196.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 196.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e73a4516-2600-4465-9a90-29078bd73296")
+		)
+		(pin "2"
+			(uuid "ac65f7a3-29db-4cdf-a87d-17736d053b0c")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -7969,7 +8457,7 @@
 	)
 	(symbol
 		(lib_id "kria-k26-devboard:GND")
-		(at 222.25 57.15 0)
+		(at 198.12 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7979,7 +8467,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6ef2da8-74c9-4e2f-88e2-c854e34b1fcd")
 		(property "Reference" "#PWR020"
-			(at 222.25 63.5 0)
+			(at 198.12 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +8476,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 62.23 0)
+			(at 198.12 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7996,7 +8484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 64.77 0)
+			(at 189.23 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,7 +8495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 69.85 0)
+			(at 189.23 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8018,7 +8506,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 57.15 0)
+			(at 198.12 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8026,7 +8514,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 213.36 64.77 0)
+			(at 189.23 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,7 +8525,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 213.36 67.31 0)
+			(at 189.23 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8894,10 +9382,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fbaa3d33-9e25-4390-8e8d-a78fae899d56")
 		(property "Reference" "U10"
-			(at 193.04 24.13 0)
+			(at 176.784 25.146 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8905,7 +9392,7 @@
 			)
 		)
 		(property "Value" "TCAN1042HVDQ1"
-			(at 193.04 26.67 0)
+			(at 184.15 27.686 0)
 			(effects
 				(font
 					(size 1.524 1.524)
