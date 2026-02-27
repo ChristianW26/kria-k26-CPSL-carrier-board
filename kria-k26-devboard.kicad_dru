@@ -1,5 +1,9 @@
 (version 1)
 (rule "target length and skew"
-      (condition "A.hasNetclass('LVDS')")
+      (condition "A.hasNetclass('LVDS_1')")
       (constraint length (min 63.9mm) (opt 64mm) (max 64.1mm))
+      (constraint skew (min -0.1mm) (opt 0mm)(max 0.1mm)))
+(rule "target length and skew"
+      (condition "A.hasNetclass('LVDS_2')")
+      (constraint length (min 50mm) (opt 100mm) (max 150mm))
       (constraint skew (min -0.1mm) (opt 0mm)(max 0.1mm)))

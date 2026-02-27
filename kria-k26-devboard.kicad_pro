@@ -569,7 +569,7 @@
         "microvia_drill": 0.1,
         "name": "Clocks_100Ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.109,
         "via_diameter": 0.4,
@@ -579,7 +579,17 @@
       {
         "diff_pair_gap": 0.071203,
         "diff_pair_width": 0.167118,
-        "name": "LVDS",
+        "name": "LVDS_1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "via_diameter": 0.4,
+        "via_drill": 0.1
+      },
+      {
+        "diff_pair_gap": 0.071203,
+        "diff_pair_width": 0.167118,
+        "name": "LVDS_2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -596,7 +606,7 @@
         "microvia_drill": 0.1,
         "name": "Supply",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.4,
@@ -613,7 +623,7 @@
         "microvia_drill": 0.1,
         "name": "impedance_ctrl",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.182,
         "via_diameter": 0.4,
@@ -1652,8 +1662,12 @@
         "pattern": "Net-(R49-Pad2)"
       },
       {
-        "netclass": "LVDS",
+        "netclass": "LVDS_1",
         "pattern": ".*HPA0[0-7].*"
+      },
+      {
+        "netclass": "LVDS_2",
+        "pattern": ".*HPC0[0-7].*"
       }
     ]
   },
