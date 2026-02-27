@@ -1288,6 +1288,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 109.22) (xy 179.07 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262a59de-911a-4fa8-83cf-ed6f54884282")
+	)
+	(wire
+		(pts
 			(xy 171.45 228.6) (xy 171.45 241.3)
 		)
 		(stroke
@@ -2025,6 +2035,16 @@
 			(type default)
 		)
 		(uuid "6f54517a-ef16-4043-9dbf-47ade445f42d")
+	)
+	(wire
+		(pts
+			(xy 151.13 111.76) (xy 179.07 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71c9d262-2cd1-422a-a132-bb850edf72c2")
 	)
 	(wire
 		(pts
@@ -7177,6 +7197,26 @@
 				(justify left)
 			)
 		)
+		(pin "HDC22" input
+			(at 179.07 109.22 180)
+			(uuid "24d2cd7a-0d7e-4e68-b8ba-38f1dff27fbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDC23" input
+			(at 179.07 111.76 180)
+			(uuid "8ac8c435-5c03-4ddb-92cc-21bff08fa2e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
@@ -8514,6 +8554,26 @@
 		(pin "{HPC[6..0]}" input
 			(at 151.13 101.6 0)
 			(uuid "0c02e777-e171-484c-aa17-ef0972f146ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDC22" input
+			(at 151.13 109.22 0)
+			(uuid "e250a8db-492b-4b79-bff7-43f44986f51f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDC23" input
+			(at 151.13 111.76 0)
+			(uuid "3e3d8c1f-e164-47d8-be29-7b7d3814bb28")
 			(effects
 				(font
 					(size 1.27 1.27)

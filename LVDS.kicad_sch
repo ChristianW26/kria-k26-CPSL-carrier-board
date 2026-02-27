@@ -3559,6 +3559,17 @@
 	)
 	(text "A2 <- B"
 		(exclude_from_sim no)
+		(at 243.84 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3eba2153-0d64-454a-a77d-b1052ac74a13")
+	)
+	(text "A2 <- B"
+		(exclude_from_sim no)
 		(at 243.84 69.85 0)
 		(effects
 			(font
@@ -3603,6 +3614,17 @@
 		)
 		(uuid "af7d9b32-ebcc-48cc-a3f0-2c80be8a2aa6")
 	)
+	(text "A1 -> B"
+		(exclude_from_sim no)
+		(at 243.84 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e60186f8-9b21-41bb-b4e6-3cd20d66308f")
+	)
 	(text "Radar Board Connector 2 (LVDS)"
 		(exclude_from_sim no)
 		(at 148.844 16.51 0)
@@ -3628,6 +3650,12 @@
 		(uuid "099af407-b33d-4bd5-8a02-bb056f28f8e4")
 	)
 	(junction
+		(at 25.4 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d52551e-e62e-4c3a-ba43-af27216de034")
+	)
+	(junction
 		(at 54.61 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3638,6 +3666,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18efd543-0df6-48bd-8637-af4e18c1fb96")
+	)
+	(junction
+		(at 43.18 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "253bd419-2f1e-4009-974b-b1b1d3e46af8")
+	)
+	(junction
+		(at 353.06 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2549ccce-a645-477c-a96a-1941a1b87883")
 	)
 	(junction
 		(at 54.61 93.98)
@@ -3658,10 +3698,22 @@
 		(uuid "2f23fc8f-e217-4687-9fde-666fa08dc321")
 	)
 	(junction
+		(at 323.85 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36381ff9-e1d5-4b1c-a61c-df7cac240691")
+	)
+	(junction
 		(at 161.29 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3700b3a3-35d8-4e06-a736-7b49132a22b1")
+	)
+	(junction
+		(at 34.29 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b77ee84-6dda-4399-8df5-4d2df0b67cd9")
 	)
 	(junction
 		(at 26.67 27.94)
@@ -3680,6 +3732,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ffdc13f-818e-4b87-afbc-a1f9a8d3ce8d")
+	)
+	(junction
+		(at 358.14 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72d4af4e-0817-478e-a6a6-73731ad6edbc")
 	)
 	(junction
 		(at 161.29 114.3)
@@ -3710,6 +3768,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97f699a2-2ef6-4f41-8418-0f2ff6787bc4")
+	)
+	(junction
+		(at 34.29 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0acb828-e807-4724-97aa-909ce0c634cd")
 	)
 	(junction
 		(at 54.61 86.36)
@@ -3748,6 +3812,12 @@
 		(uuid "bb762deb-de21-4c55-96e3-7a5f804604fc")
 	)
 	(junction
+		(at 74.93 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc0c4221-d6ee-41c2-b249-2261e5674ea1")
+	)
+	(junction
 		(at 355.6 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3778,6 +3848,12 @@
 		(uuid "ce3f0bbd-244e-489a-9d2a-ca05c4f72012")
 	)
 	(junction
+		(at 323.85 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0cc1928-ba0d-42b9-ae97-da6e195670fa")
+	)
+	(junction
 		(at 162.56 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3790,10 +3866,28 @@
 		(uuid "dd0e9d5b-aed9-48ea-978f-033dd41c689d")
 	)
 	(junction
+		(at 238.76 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddbc2c9d-fb05-45da-819e-bdd9a26765cd")
+	)
+	(junction
 		(at 133.35 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df476c00-1c3b-4e14-9b3e-9d26569c2439")
+	)
+	(junction
+		(at 355.6 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc00622-fc67-4bf6-8559-ab47f75727d3")
+	)
+	(junction
+		(at 43.18 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e36ccd6d-4b75-4904-a2dd-bd5d5f7d5a5c")
 	)
 	(junction
 		(at 54.61 114.3)
@@ -3808,10 +3902,34 @@
 		(uuid "ee2dda4e-5560-4790-8716-ca234a77dd34")
 	)
 	(junction
+		(at 238.76 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eec5fdcb-6cea-4408-ab5e-ac0363f15c4e")
+	)
+	(junction
+		(at 25.4 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0ccf2cd-ee99-4327-8ff0-984fe842d305")
+	)
+	(junction
+		(at 323.85 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1767f6d-754b-4d8c-ab7a-7c1369014e20")
+	)
+	(junction
 		(at 54.61 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2b57bff-09eb-4a76-8d1c-0c14a30fad7e")
+	)
+	(junction
+		(at 74.93 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f80ac876-030c-4fd1-aa50-3dc1d7ddbab4")
 	)
 	(junction
 		(at 161.29 93.98)
@@ -4379,6 +4497,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 166.37) (xy 34.29 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f989e0-636d-4a90-9722-cf9757df5fc4")
+	)
+	(wire
+		(pts
 			(xy 160.02 106.68) (xy 161.29 106.68)
 		)
 		(stroke
@@ -4436,6 +4564,16 @@
 			(type default)
 		)
 		(uuid "07fb1fc7-8e49-45e7-aaca-3c7226e56519")
+	)
+	(wire
+		(pts
+			(xy 322.58 114.3) (xy 323.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08068b34-544f-4277-bd7c-fe0d4c67df9a")
 	)
 	(wire
 		(pts
@@ -4509,6 +4647,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 123.19) (xy 259.08 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eafb7c6-9722-4f48-9481-6a2a752d4b71")
+	)
+	(wire
+		(pts
 			(xy 160.02 99.06) (xy 198.12 99.06)
 		)
 		(stroke
@@ -4527,15 +4675,45 @@
 		)
 		(uuid "0f919a4f-e5df-49bf-91fd-081ed6c81374")
 	)
+	(wire
+		(pts
+			(xy 82.55 147.32) (xy 82.55 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1516fa15-e962-456b-99a8-a84f22ff5d6d")
+	)
 	(polyline
 		(pts
-			(xy 219.71 12.7) (xy 219.71 130.81)
+			(xy 219.71 12.7) (xy 219.71 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "154ec15a-8b5a-44db-b09c-25208c28b8b3")
+	)
+	(wire
+		(pts
+			(xy 238.76 109.22) (xy 240.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15955c9d-2e3f-432e-a792-a233b9c772c7")
+	)
+	(wire
+		(pts
+			(xy 43.18 148.59) (xy 53.34 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a7671c-5220-4ea6-bfdc-2c698b855d67")
 	)
 	(wire
 		(pts
@@ -4579,6 +4757,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 119.38) (xy 323.85 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1968d4e1-21af-4d90-9e15-7318a3de88e3")
+	)
+	(wire
+		(pts
 			(xy 53.34 68.58) (xy 91.44 68.58)
 		)
 		(stroke
@@ -4586,6 +4774,16 @@
 			(type default)
 		)
 		(uuid "19b32459-a718-48a9-855a-7f40f1fb6058")
+	)
+	(wire
+		(pts
+			(xy 323.85 96.52) (xy 345.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9264f4-b14e-4daf-96ce-573d123c55f3")
 	)
 	(wire
 		(pts
@@ -4676,6 +4874,26 @@
 			(type default)
 		)
 		(uuid "24acd52a-ee36-490f-8d78-8c29c4e252a4")
+	)
+	(wire
+		(pts
+			(xy 345.44 104.14) (xy 358.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25056a54-ded3-4d8a-85aa-d30895cf8409")
+	)
+	(wire
+		(pts
+			(xy 238.76 123.19) (xy 240.03 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f1ba1e-2623-4e9a-85cb-c81f7f9d0d96")
 	)
 	(wire
 		(pts
@@ -4779,6 +4997,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 114.3) (xy 306.07 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2c4be5-f79b-409c-a624-6bc9c01ef4cb")
+	)
+	(wire
+		(pts
 			(xy 53.34 58.42) (xy 91.44 58.42)
 		)
 		(stroke
@@ -4809,6 +5037,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 113.03) (xy 323.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc3ef08-cbc6-4e5a-abf7-c388c63adf19")
+	)
+	(wire
+		(pts
 			(xy 355.6 68.58) (xy 355.6 69.85)
 		)
 		(stroke
@@ -4816,6 +5054,16 @@
 			(type default)
 		)
 		(uuid "303ef345-395f-4b1d-826a-7bbec9c82d55")
+	)
+	(wire
+		(pts
+			(xy 25.4 167.64) (xy 34.29 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3107701b-1641-4fff-b01d-c5f33d5151a7")
 	)
 	(bus
 		(pts
@@ -4837,6 +5085,16 @@
 		)
 		(uuid "332e827c-6b83-4dc1-9613-689c236a1509")
 	)
+	(wire
+		(pts
+			(xy 257.81 109.22) (xy 259.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3609a82f-eac6-4a38-bfcf-6aaf6977a76e")
+	)
 	(bus
 		(pts
 			(xy 200.66 93.98) (xy 200.66 96.52)
@@ -4856,6 +5114,16 @@
 			(type default)
 		)
 		(uuid "36dc785d-bd36-44e4-a14e-fc6793ae2f77")
+	)
+	(polyline
+		(pts
+			(xy 115.57 139.7) (xy 393.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37815230-6521-4f5c-9dec-8b010cba2479")
 	)
 	(wire
 		(pts
@@ -4957,6 +5225,16 @@
 		)
 		(uuid "3e1a5d2d-bb37-4a21-beed-852627ea8a52")
 	)
+	(wire
+		(pts
+			(xy 269.24 109.22) (xy 269.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e98b229-043d-4be7-9551-52bfee57836f")
+	)
 	(bus
 		(pts
 			(xy 93.98 50.8) (xy 93.98 55.88)
@@ -4976,6 +5254,16 @@
 			(type default)
 		)
 		(uuid "3f5a0e33-9a08-4299-a50f-1e75c788d99c")
+	)
+	(wire
+		(pts
+			(xy 304.8 99.06) (xy 302.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4108146d-2e33-46dd-ab2d-90f2af5d0dff")
 	)
 	(wire
 		(pts
@@ -4999,6 +5287,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 160.02) (xy 34.29 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e110d1-e973-4223-b374-121dddafa22c")
+	)
+	(wire
+		(pts
 			(xy 323.85 45.72) (xy 323.85 46.99)
 		)
 		(stroke
@@ -5009,6 +5307,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 104.14) (xy 275.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d4fb12-5748-44e7-8d59-1faadff20981")
+	)
+	(wire
+		(pts
 			(xy 161.29 86.36) (xy 161.29 93.98)
 		)
 		(stroke
@@ -5016,6 +5324,16 @@
 			(type default)
 		)
 		(uuid "440515fa-8a05-4385-baf7-0ae6a93dd396")
+	)
+	(wire
+		(pts
+			(xy 238.76 120.65) (xy 240.03 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460b2b0e-04ef-4261-bdce-868a743b6de6")
 	)
 	(wire
 		(pts
@@ -5049,13 +5367,33 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 140.97) (xy 52.07 142.24)
+			(xy 74.93 140.97) (xy 74.93 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4b259dc6-149b-4578-9ad0-d4c6a9a824c1")
+	)
+	(wire
+		(pts
+			(xy 269.24 119.38) (xy 275.59 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ced9026-592d-4aa3-b6ff-2329db30f3c0")
+	)
+	(wire
+		(pts
+			(xy 322.58 99.06) (xy 323.85 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d553de1-2612-454b-8f13-2a6684b1eb34")
 	)
 	(bus
 		(pts
@@ -5076,16 +5414,6 @@
 			(type default)
 		)
 		(uuid "4f782064-a875-4ce5-b2b7-4cfae0826d6f")
-	)
-	(polyline
-		(pts
-			(xy 115.57 130.81) (xy 219.71 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "517b08f0-9d33-466b-9d84-25bbbb3b3954")
 	)
 	(wire
 		(pts
@@ -5129,6 +5457,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 96.52) (xy 323.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556578f0-7a6a-429d-981d-f31a0ab384e1")
+	)
+	(wire
+		(pts
 			(xy 353.06 38.1) (xy 353.06 48.26)
 		)
 		(stroke
@@ -5149,6 +5487,26 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 96.52) (xy 358.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c48d834-dda4-4bfe-867f-59a475ea01c2")
+	)
+	(wire
+		(pts
+			(xy 82.55 140.97) (xy 82.55 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e02b3a7-48d3-4561-afcd-5a2acc408ac0")
+	)
+	(wire
+		(pts
 			(xy 54.61 111.76) (xy 54.61 114.3)
 		)
 		(stroke
@@ -5166,6 +5524,16 @@
 			(type default)
 		)
 		(uuid "5ece8222-87cf-4bde-896f-8a45c91417f8")
+	)
+	(wire
+		(pts
+			(xy 323.85 92.71) (xy 323.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa54963-8f3b-4034-b587-2b779e579d3b")
 	)
 	(wire
 		(pts
@@ -5209,6 +5577,26 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 109.22) (xy 238.76 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6427152d-fbc3-489a-9897-add21a6e28a4")
+	)
+	(wire
+		(pts
+			(xy 323.85 105.41) (xy 323.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645d3f4a-cafb-4ae8-8af0-d6ef6dfac2b0")
+	)
+	(wire
+		(pts
 			(xy 162.56 27.94) (xy 175.26 27.94)
 		)
 		(stroke
@@ -5239,6 +5627,26 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 92.71) (xy 304.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66844283-99ca-4972-9148-8ea13dac72b6")
+	)
+	(wire
+		(pts
+			(xy 74.93 140.97) (xy 82.55 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696b9666-4fb9-45d4-8545-be2da910b925")
+	)
+	(wire
+		(pts
 			(xy 134.62 30.48) (xy 133.35 30.48)
 		)
 		(stroke
@@ -5256,6 +5664,16 @@
 			(type default)
 		)
 		(uuid "6b8dc6be-a721-495e-8085-5dd5bf0bddbe")
+	)
+	(wire
+		(pts
+			(xy 340.36 106.68) (xy 337.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb85840-be1a-4752-ba2b-4b0bb4e4b6fd")
 	)
 	(wire
 		(pts
@@ -5279,6 +5697,26 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 109.22) (xy 238.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc54d0e-c6dd-4d00-9949-4968282b1e1c")
+	)
+	(wire
+		(pts
+			(xy 323.85 99.06) (xy 323.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d20812-0c78-4f6b-8f98-ec5a245fccf9")
+	)
+	(wire
+		(pts
 			(xy 24.13 142.24) (xy 24.13 140.97)
 		)
 		(stroke
@@ -5299,7 +5737,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 140.97) (xy 52.07 140.97)
+			(xy 302.26 119.38) (xy 303.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72961703-b241-4938-807a-9e8c21542f4e")
+	)
+	(wire
+		(pts
+			(xy 73.66 140.97) (xy 74.93 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5349,6 +5797,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 92.71) (xy 323.85 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ec74f4-f427-4d97-82a4-5b981c2160c4")
+	)
+	(wire
+		(pts
 			(xy 322.58 38.1) (xy 323.85 38.1)
 		)
 		(stroke
@@ -5389,6 +5847,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 104.14) (xy 345.44 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0617ce-7461-4287-a19c-cde176a41ef7")
+	)
+	(wire
+		(pts
 			(xy 161.29 71.12) (xy 161.29 78.74)
 		)
 		(stroke
@@ -5419,6 +5887,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 148.59) (xy 82.55 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82225b23-4990-4a69-91f0-b980ed2b9320")
+	)
+	(wire
+		(pts
+			(xy 25.4 168.91) (xy 25.4 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82299398-64be-4031-9876-a7bd13ac3e93")
+	)
+	(wire
+		(pts
 			(xy 269.24 48.26) (xy 269.24 52.07)
 		)
 		(stroke
@@ -5426,6 +5914,26 @@
 			(type default)
 		)
 		(uuid "82383a0c-27bb-4ca5-97db-9b0591fa6b17")
+	)
+	(wire
+		(pts
+			(xy 43.18 140.97) (xy 43.18 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8244bff4-a1ad-4c91-ac5a-962767bb2afa")
+	)
+	(wire
+		(pts
+			(xy 43.18 147.32) (xy 43.18 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8370744e-6090-4501-9bc1-61b04fd3eba5")
 	)
 	(wire
 		(pts
@@ -5459,6 +5967,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 140.97) (xy 53.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b25a96-f681-4f3c-8a9c-d84ea57a99bf")
+	)
+	(wire
+		(pts
 			(xy 161.29 55.88) (xy 161.29 63.5)
 		)
 		(stroke
@@ -5476,6 +5994,16 @@
 			(type default)
 		)
 		(uuid "896fdbf0-4d49-4410-a053-1c1612b33703")
+	)
+	(wire
+		(pts
+			(xy 322.58 116.84) (xy 323.85 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897a9305-2b61-4e67-9ff2-b000f48a6a08")
 	)
 	(wire
 		(pts
@@ -5516,6 +6044,16 @@
 			(type default)
 		)
 		(uuid "8c7dcb13-40a8-4d35-868f-9463f5e341f4")
+	)
+	(wire
+		(pts
+			(xy 353.06 91.44) (xy 353.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cda0832-002b-41d2-ba8f-0b713b55bd74")
 	)
 	(bus
 		(pts
@@ -5589,6 +6127,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 147.32) (xy 53.34 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f14ca9-4769-453a-b84c-5a96ac2fd81b")
+	)
+	(wire
+		(pts
 			(xy 304.8 31.75) (xy 323.85 31.75)
 		)
 		(stroke
@@ -5616,6 +6164,16 @@
 			(type default)
 		)
 		(uuid "9215bceb-7c2d-4e70-9ffe-9843a0d8c460")
+	)
+	(wire
+		(pts
+			(xy 229.87 115.57) (xy 240.03 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f57e4f-c9bc-4820-be60-1e35d1ad58f6")
 	)
 	(wire
 		(pts
@@ -5649,6 +6207,46 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 106.68) (xy 323.85 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aeb0847-519c-496a-986d-70a1769b8805")
+	)
+	(wire
+		(pts
+			(xy 358.14 90.17) (xy 355.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ced90c1-cf4a-426c-a4e6-4c5e9b9314fa")
+	)
+	(wire
+		(pts
+			(xy 302.26 114.3) (xy 306.07 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d414e00-b44e-4dcc-8ca7-bf6def80597c")
+	)
+	(wire
+		(pts
+			(xy 358.14 104.14) (xy 358.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d99a9d3-bea4-4e51-a9ef-5d755a85c5d1")
+	)
+	(wire
+		(pts
 			(xy 269.24 58.42) (xy 275.59 58.42)
 		)
 		(stroke
@@ -5656,6 +6254,16 @@
 			(type default)
 		)
 		(uuid "9e90a9d1-3d79-4b13-90b5-d215c62d521c")
+	)
+	(wire
+		(pts
+			(xy 353.06 99.06) (xy 353.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ebaa91f-41c7-4e51-bfd4-73bb766a3860")
 	)
 	(wire
 		(pts
@@ -5676,6 +6284,16 @@
 			(type default)
 		)
 		(uuid "9f61d366-5ec6-433f-9181-0984d7a2ba95")
+	)
+	(wire
+		(pts
+			(xy 274.32 99.06) (xy 275.59 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0cf9e39-f6f0-46c6-bdd8-6390e895d0c1")
 	)
 	(wire
 		(pts
@@ -5726,6 +6344,16 @@
 			(type default)
 		)
 		(uuid "a66c91a2-2229-4271-aa9a-da87d9e2ff4e")
+	)
+	(wire
+		(pts
+			(xy 340.36 107.95) (xy 340.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a696b5ed-1ea7-496a-b289-52490bb4fbe5")
 	)
 	(bus
 		(pts
@@ -5789,6 +6417,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 106.68) (xy 332.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa1d1052-db89-4b83-81d4-9bab0f77e310")
+	)
+	(wire
+		(pts
 			(xy 25.4 160.02) (xy 25.4 161.29)
 		)
 		(stroke
@@ -5809,6 +6447,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 160.02) (xy 34.29 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa961bb6-13cd-40e9-a9f9-cebcadbdf75f")
+	)
+	(wire
+		(pts
 			(xy 238.76 48.26) (xy 238.76 57.15)
 		)
 		(stroke
@@ -5816,6 +6464,16 @@
 			(type default)
 		)
 		(uuid "ab240f10-9910-4b87-8d37-0d718139eadf")
+	)
+	(wire
+		(pts
+			(xy 355.6 88.9) (xy 355.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfd0fff-26d0-4c60-a5ef-fce6dc921572")
 	)
 	(wire
 		(pts
@@ -5859,6 +6517,26 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 116.84) (xy 323.85 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b479278b-9580-4c54-b769-b45c37a9897b")
+	)
+	(wire
+		(pts
+			(xy 34.29 148.59) (xy 43.18 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f721e6-91ed-47cc-ad59-6df74d201b79")
+	)
+	(wire
+		(pts
 			(xy 160.02 48.26) (xy 161.29 48.26)
 		)
 		(stroke
@@ -5886,6 +6564,16 @@
 			(type default)
 		)
 		(uuid "b70ec1f0-8414-4422-89f4-1abb68928a43")
+	)
+	(wire
+		(pts
+			(xy 358.14 91.44) (xy 358.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72f1823-9542-4462-95ea-e966b3bb5f5a")
 	)
 	(wire
 		(pts
@@ -5926,6 +6614,16 @@
 			(type default)
 		)
 		(uuid "bf813bb0-2fb0-4350-abb7-b959776df2bd")
+	)
+	(wire
+		(pts
+			(xy 345.44 96.52) (xy 345.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc992ba-f603-4ec9-9229-c874d527913b")
 	)
 	(wire
 		(pts
@@ -5979,6 +6677,26 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 129.54) (xy 355.6 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3253bab-9fae-43ca-97ce-8dc1ffaa7bf1")
+	)
+	(wire
+		(pts
+			(xy 303.53 119.38) (xy 303.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5395cba-97d0-4e66-ae04-8b6807b2a375")
+	)
+	(wire
+		(pts
 			(xy 306.07 53.34) (xy 306.07 58.42)
 		)
 		(stroke
@@ -5986,6 +6704,16 @@
 			(type default)
 		)
 		(uuid "c5e38c26-2d91-4f5a-9c2a-c312dca592a5")
+	)
+	(wire
+		(pts
+			(xy 358.14 104.14) (xy 368.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69718c8-1211-488b-a826-d74615952b3b")
 	)
 	(wire
 		(pts
@@ -6019,6 +6747,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 148.59) (xy 74.93 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb58c51c-1c59-4175-94a0-b93b195e7f19")
+	)
+	(wire
+		(pts
 			(xy 54.61 101.6) (xy 54.61 106.68)
 		)
 		(stroke
@@ -6036,6 +6774,16 @@
 			(type default)
 		)
 		(uuid "cbed5b32-aa27-4f17-92c6-8ff809f1613f")
+	)
+	(wire
+		(pts
+			(xy 269.24 109.22) (xy 275.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc117dbc-4cb0-42da-9839-75a3feef8c95")
 	)
 	(wire
 		(pts
@@ -6059,6 +6807,36 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 123.19) (xy 257.81 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf874878-35b6-47f4-bd93-ac7ffb5a7226")
+	)
+	(wire
+		(pts
+			(xy 269.24 119.38) (xy 269.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfebc5a5-3633-4746-9b0a-be0e9615b977")
+	)
+	(wire
+		(pts
+			(xy 238.76 120.65) (xy 238.76 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fe3183-a25e-4dd4-83cc-9d11d44d0125")
+	)
+	(wire
+		(pts
 			(xy 24.13 140.97) (xy 22.86 140.97)
 		)
 		(stroke
@@ -6079,6 +6857,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 115.57) (xy 269.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d2a5a1-6749-433c-9c98-910fcdcbdf25")
+	)
+	(wire
+		(pts
 			(xy 34.29 142.24) (xy 34.29 140.97)
 		)
 		(stroke
@@ -6089,6 +6877,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 114.3) (xy 274.32 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56fc23d-8382-4146-a272-a1f1290f5b45")
+	)
+	(wire
+		(pts
 			(xy 53.34 53.34) (xy 91.44 53.34)
 		)
 		(stroke
@@ -6096,6 +6894,16 @@
 			(type default)
 		)
 		(uuid "d5f93997-8a9e-4687-99e0-0c546f2b5cbb")
+	)
+	(wire
+		(pts
+			(xy 34.29 140.97) (xy 43.18 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6acf0dc-27b9-4f27-912f-3af7f191ac75")
 	)
 	(wire
 		(pts
@@ -6139,6 +6947,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 113.03) (xy 240.03 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da44af34-84c9-4136-89a8-166253530c21")
+	)
+	(wire
+		(pts
 			(xy 53.34 99.06) (xy 91.44 99.06)
 		)
 		(stroke
@@ -6169,6 +6987,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 118.11) (xy 240.03 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcd0270a-9d38-4ddf-90f8-0b35ec58bb45")
+	)
+	(wire
+		(pts
 			(xy 358.14 29.21) (xy 355.6 29.21)
 		)
 		(stroke
@@ -6189,6 +7017,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 113.03) (xy 269.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28bf6f2-e66a-4a58-a3e5-98001ab53d0f")
+	)
+	(wire
+		(pts
 			(xy 161.29 101.6) (xy 161.29 106.68)
 		)
 		(stroke
@@ -6196,6 +7034,16 @@
 			(type default)
 		)
 		(uuid "e30c5222-8cc2-48e1-820f-79b20e8fd826")
+	)
+	(wire
+		(pts
+			(xy 274.32 114.3) (xy 274.32 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37f82dd-ef22-4745-9223-4516ad1ca5ee")
 	)
 	(wire
 		(pts
@@ -6259,6 +7107,36 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 99.06) (xy 353.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87b08b1-61b1-4ce5-b988-b1106f9e53bc")
+	)
+	(wire
+		(pts
+			(xy 353.06 90.17) (xy 355.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96a0a63-44f2-4893-a717-e933a4c84c5b")
+	)
+	(wire
+		(pts
+			(xy 43.18 140.97) (xy 53.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e6d755-73b4-4ac6-8c9a-8a4a7338e8da")
+	)
+	(wire
+		(pts
 			(xy 353.06 29.21) (xy 355.6 29.21)
 		)
 		(stroke
@@ -6279,6 +7157,26 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 96.52) (xy 353.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eceadf50-70e1-44ab-bbb7-51b64f98623c")
+	)
+	(wire
+		(pts
+			(xy 353.06 99.06) (xy 368.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9890d6-0919-4df7-b15c-0a896c1c485f")
+	)
+	(wire
+		(pts
 			(xy 53.34 101.6) (xy 54.61 101.6)
 		)
 		(stroke
@@ -6289,7 +7187,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 147.32) (xy 52.07 148.59)
+			(xy 74.93 147.32) (xy 74.93 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6329,6 +7227,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 101.6) (xy 367.03 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ebdf1a-1800-4902-bdbf-a80e22c11ae2")
+	)
+	(wire
+		(pts
 			(xy 355.6 27.94) (xy 355.6 29.21)
 		)
 		(stroke
@@ -6357,6 +7265,16 @@
 		)
 		(uuid "f32af28d-7d8d-4a40-8ab3-d40d284b84f3")
 	)
+	(wire
+		(pts
+			(xy 238.76 123.19) (xy 238.76 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3512e69-08c6-41be-8461-d8aff9148497")
+	)
 	(bus
 		(pts
 			(xy 93.98 58.42) (xy 93.98 63.5)
@@ -6379,6 +7297,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 116.84) (xy 345.44 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f544a499-290f-470f-9f54-7f9ba1d18599")
+	)
+	(wire
+		(pts
 			(xy 303.53 58.42) (xy 303.53 60.96)
 		)
 		(stroke
@@ -6396,6 +7324,16 @@
 			(type default)
 		)
 		(uuid "f696740d-ea83-4555-8c62-9caa92ba103c")
+	)
+	(wire
+		(pts
+			(xy 367.03 101.6) (xy 368.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76340fe-0823-43ab-ad02-bc2cc7cb15bd")
 	)
 	(wire
 		(pts
@@ -6637,6 +7575,16 @@
 		)
 		(uuid "5bfcbb77-9136-4711-89dd-187baeb1b296")
 	)
+	(label "CAN2_L"
+		(at 359.41 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d1d77f7-602f-495f-ae7f-8782076d59d6")
+	)
 	(label "LVDS_0N"
 		(at 68.58 99.06 180)
 		(effects
@@ -6787,6 +7735,16 @@
 		)
 		(uuid "aedb33a5-8f9e-4b9e-8fe3-4944e3ca03a3")
 	)
+	(label "CAN2_H"
+		(at 359.41 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3b3110a-0d4c-45a2-b8cd-3d21f5da5aa6")
+	)
 	(label "HPC05_CC_P"
 		(at 196.85 58.42 180)
 		(effects
@@ -6907,6 +7865,28 @@
 		)
 		(uuid "e804d359-1f5d-4fca-8b82-8f8a2ade6a1c")
 	)
+	(global_label "PS_1V8"
+		(shape input)
+		(at 234.95 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07b869ba-8aa6-4b32-9908-953af61a1fc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.671 109.1406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SOM_5V0"
 		(shape input)
 		(at 274.32 38.1 180)
@@ -6975,7 +7955,7 @@
 	)
 	(global_label "PS_1V8"
 		(shape input)
-		(at 50.8 140.97 180)
+		(at 73.66 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6985,7 +7965,51 @@
 		)
 		(uuid "2ff5df57-eef5-410f-aee4-01b06a685c6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.521 140.8906 0)
+			(at 64.381 140.8906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SOM_5V0"
+		(shape input)
+		(at 274.32 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3302922a-9a3f-4085-b89b-4925994c0187")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.5224 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PS_3V3"
+		(shape input)
+		(at 259.08 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "627c6b50-2159-4902-a147-6b68b91c6911")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.83 -139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,6 +8109,28 @@
 	)
 	(global_label "PS_3V3"
 		(shape input)
+		(at 274.32 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d17df3f8-ebd5-4f59-b82c-6c9369471221")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 -144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PS_3V3"
+		(shape input)
 		(at 259.08 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7115,6 +8161,28 @@
 			(justify right)
 		)
 		(uuid "29a484ee-5dcd-4764-909d-fa5cbc2925d1")
+	)
+	(hierarchical_label "HDC23"
+		(shape input)
+		(at 229.87 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40ea7bf7-43ce-4751-9908-8d01e13fa20d")
+	)
+	(hierarchical_label "HDC22"
+		(shape input)
+		(at 229.87 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c3750eb-75db-46b7-a906-4bd9f26a75ea")
 	)
 	(hierarchical_label "MIO42"
 		(shape input)
@@ -7151,7 +8219,7 @@
 	)
 	(symbol
 		(lib_id "kria-k26-devboard:GND")
-		(at 52.07 148.59 0)
+		(at 74.93 149.86 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7161,7 +8229,7 @@
 		(fields_autoplaced yes)
 		(uuid "0202c827-bf7f-46bc-bac6-fc09c7c37411")
 		(property "Reference" "#PWR035"
-			(at 52.07 154.94 0)
+			(at 74.93 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,7 +8238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 153.67 0)
+			(at 74.93 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +8246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 156.21 0)
+			(at 66.04 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +8257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 161.29 0)
+			(at 66.04 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,7 +8268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 148.59 0)
+			(at 74.93 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7208,7 +8276,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 43.18 156.21 0)
+			(at 66.04 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7219,7 +8287,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 43.18 158.75 0)
+			(at 66.04 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7326,6 +8394,123 @@
 		)
 	)
 	(symbol
+		(lib_id "kria-k26-devboard:PinHeader_1x2_P2.54mm_Drill1.02mm")
+		(at 322.58 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cddc012-fefd-433a-a0b4-97e9787f492a")
+		(property "Reference" "J17"
+			(at 316.23 99.0601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PinHeader_1x2_P2.54mm_Drill1.02mm"
+			(at 318.77 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm"
+			(at 317.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/181/M20-999-1218971.pdf"
+			(at 317.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "M20-9990246"
+			(at 320.04 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 317.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 302.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 302.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38d63f34-7321-42a2-a420-ed3f52f4c4f9")
+		)
+		(pin "2"
+			(uuid "20722564-dda2-4a39-8e5a-a507d21a3615")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kria-k26-devboard:GND")
 		(at 355.6 69.85 0)
 		(mirror y)
@@ -7412,6 +8597,154 @@
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:C_100n_0402")
+		(at 358.14 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "174bfd40-3d59-4ff0-a52f-7c159dcac64e")
+		(property "Reference" "C177"
+			(at 358.775 92.0877 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 354.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
+			(at 363.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+			(at 358.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 358.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 368.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 365.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 358.775 95.8977 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 335.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 332.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 330.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 327.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710c67a7-0a61-45fd-b0f1-0de0bc84030c")
+		)
+		(pin "2"
+			(uuid "0494fee2-4ebf-4588-84bc-1de9c27809b2")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "C177")
 					(unit 1)
 				)
 			)
@@ -7528,6 +8861,130 @@
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:NUP2105LT1G")
+		(at 355.6 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aa079fc-4012-46a0-8c41-9eee9fbcb721")
+		(property "Reference" "D9"
+			(at 361.95 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NUP2105LT1G"
+			(at 361.95 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:SOT95P237X111-3N"
+			(at 355.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nup2105l-d.pdf"
+			(at 355.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "27 V ESD Protection Diode Dual Line CAN Bus Protector"
+			(at 355.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "10"
+			(at 355.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 355.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "NUP2105LT1G"
+			(at 355.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.11mm"
+			(at 355.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Onsemi"
+			(at 355.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8c304286-7c0e-47ab-87de-75b8b689cbe2")
+		)
+		(pin "1"
+			(uuid "12764258-9183-4153-a007-91c11bbbc945")
+		)
+		(pin "2"
+			(uuid "ebf77346-db35-4635-82e3-1c7f00f8c4db")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -7687,6 +9144,292 @@
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:SN74AVC2T245_UQFN")
+		(at 240.03 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3178b0cf-f2c4-48b7-8213-fcc4be57c2bc")
+		(property "Reference" "U56"
+			(at 248.285 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AVC2T245_UQFN"
+			(at 248.285 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:UQFN-10_1.4x1.8x0.5mm_P0.4mm"
+			(at 240.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74avc2t245.pdf?ts=1678888074783&ref_url=https%253A%252F%252Fwww.google.com%252F"
+			(at 240.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 240.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74AVC2T245RSWR"
+			(at 248.285 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 285.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 285.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3deea652-9175-4dde-bb5c-04f070b5678f")
+		)
+		(pin "10"
+			(uuid "903487f2-6c5b-468b-a984-e4f53f2a6b72")
+		)
+		(pin "2"
+			(uuid "811f926a-70a0-491a-a16e-480f79761350")
+		)
+		(pin "3"
+			(uuid "1a1aee6a-4a10-4eda-98c7-bbc32493541e")
+		)
+		(pin "4"
+			(uuid "a2ea3abc-3ed8-4e32-9b0e-45d46285d52d")
+		)
+		(pin "5"
+			(uuid "bfbc2b97-a221-47f9-a727-0f33cccfd076")
+		)
+		(pin "6"
+			(uuid "10e8f877-38be-47bf-b0fb-60d903bad99a")
+		)
+		(pin "7"
+			(uuid "33a4c5f1-d7bf-454e-9a14-bcf557820b50")
+		)
+		(pin "8"
+			(uuid "064dc863-cc71-4609-bc6e-eb5734e57609")
+		)
+		(pin "9"
+			(uuid "adcc284f-36e7-47ed-abb1-a41fcde22abe")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "U56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:C_100n_0402")
+		(at 34.29 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "371aaf2c-ab14-47f3-b7f5-fb72748aa031")
+		(property "Reference" "C181"
+			(at 34.925 161.9377 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 30.48 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
+			(at 39.37 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+			(at 34.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 44.45 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 41.91 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 34.925 165.7477 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 11.43 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 8.89 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 6.35 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 3.81 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91536356-e068-47c1-b6e0-f4a34f42371d")
+		)
+		(pin "2"
+			(uuid "ced2629d-bb4f-4c10-bf7d-f386a4d59729")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "C181")
 					(unit 1)
 				)
 			)
@@ -7993,6 +9736,154 @@
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:C_100n_0402")
+		(at 43.18 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45be8b0c-769c-4112-aa06-7ddb74bf0651")
+		(property "Reference" "C179"
+			(at 43.815 142.8877 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 39.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
+			(at 48.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+			(at 43.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 53.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 50.8 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 43.815 146.6977 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 20.32 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 17.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 15.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 12.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b191f2b-4924-43d6-a80b-aa305cbf2613")
+		)
+		(pin "2"
+			(uuid "5fcb60ce-75f4-4cb3-9541-06e3e808bc80")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "C179")
 					(unit 1)
 				)
 			)
@@ -8743,6 +10634,147 @@
 	)
 	(symbol
 		(lib_id "kria-k26-devboard:R_60R4_0402")
+		(at 323.85 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66b32fd3-7365-4876-9c1b-402dfbbd8402")
+		(property "Reference" "R30"
+			(at 326.39 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_60R4_0402"
+			(at 336.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
+			(at 339.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 341.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 60.4 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 323.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-60R4GLF"
+			(at 344.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 346.71 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 349.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 351.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "60R4"
+			(at 326.39 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 334.01 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c01cca9-b896-428a-ab20-7ca3ab175823")
+		)
+		(pin "2"
+			(uuid "fb916dae-10c4-41bf-b2dc-361ca7b0a9a8")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:R_60R4_0402")
 		(at 323.85 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9024,6 +11056,190 @@
 		)
 	)
 	(symbol
+		(lib_id "kria-k26-devboard:GND")
+		(at 340.36 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7630d2b8-1196-4e9a-a613-11aca56c7eed")
+		(property "Reference" "#PWR093"
+			(at 340.36 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 331.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 331.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 331.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24405317-f607-4cb8-abcb-b926e09c3c40")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:GND")
+		(at 303.53 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83e896eb-d93d-4708-9f71-508f674ff8c4")
+		(property "Reference" "#PWR088"
+			(at 303.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 303.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 294.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 294.64 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 294.64 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0389e9f6-84fe-431a-9ddc-b5a8018b1169")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kria-k26-devboard:SN74AVC2T245_UQFN")
 		(at 240.03 48.26 0)
 		(unit 1)
@@ -9156,6 +11372,165 @@
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 355.6 88.9 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8af5e18c-785a-4420-81ff-2d5904c9b066")
+		(property "Reference" "#PWR095"
+			(at 355.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 355.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 355.6 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bd4dadf-90f9-4b29-a9b3-45ef427b63cd")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:GND")
+		(at 259.08 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f966f09-ae37-4838-a099-cb69894d28fb")
+		(property "Reference" "#PWR076"
+			(at 259.08 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 250.19 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 250.19 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fd13ef1-f219-49ef-81db-539769431719")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -9458,35 +11833,25 @@
 		)
 	)
 	(symbol
-		(lib_id "kria-k26-devboard:GND")
-		(at 25.4 167.64 0)
-		(mirror y)
+		(lib_id "kria-k26-devboard:C_100n_0402")
+		(at 82.55 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a85e8160-735e-4f56-a358-ff60c15610a6")
-		(property "Reference" "#PWR033"
-			(at 25.4 173.99 0)
+		(uuid "a339a64d-696d-4b78-86ed-6d46392d3ff8")
+		(property "Reference" "C178"
+			(at 83.185 142.8877 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 25.4 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 16.51 175.26 0)
+		(property "Value" "C_100n_0402"
+			(at 78.74 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,8 +11861,19 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 16.51 180.34 0)
+		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
+			(at 87.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+			(at 82.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,15 +11884,261 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 167.64 0)
+			(at 82.55 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(property "Manufacturer" "Murata"
+			(at 92.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 90.17 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 83.185 146.6977 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 59.69 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "Author" "Antmicro"
-			(at 16.51 175.26 0)
+			(at 57.15 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 54.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 52.07 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67d1dbf8-8ba7-4fa3-8bc7-e4e4acefa45c")
+		)
+		(pin "2"
+			(uuid "8a3f0d9e-fea2-48fa-8d2d-0d4711df3b3f")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "C178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:DF13C-3P-1.25V_21_")
+		(at 378.46 101.6 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5835a87-6ea3-4557-b156-565b175096f8")
+		(property "Reference" "J19"
+			(at 374.142 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DF13C-3P-1.25V_21_"
+			(at 368.554 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:HRS_DF13C-3P-1.25V_21_"
+			(at 378.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.hirose.com/product/series/catalogdownload?category=DF13"
+			(at 378.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount 3 position 0.049\" (1.25mm)"
+			(at 378.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "HRS"
+			(at 378.46 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0f85349-cc4d-45e7-909f-4744ebd8b852")
+		)
+		(pin "2"
+			(uuid "acd26124-5cb2-4156-8f4e-6d8c0cf283e8")
+		)
+		(pin "3"
+			(uuid "d9efff7a-46f5-400f-86cd-72a9de5190e8")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:R_60R4_0402")
+		(at 323.85 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6bdd084-ab5c-4e80-b0ad-c95117e435ce")
+		(property "Reference" "R29"
+			(at 326.39 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_60R4_0402"
+			(at 336.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:R_0402_1005Metric"
+			(at 339.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 341.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 60.4 ohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 323.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-60R4GLF"
+			(at 344.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 346.71 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,7 +12149,133 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 16.51 177.8 0)
+			(at 349.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 351.79 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "60R4"
+			(at 326.39 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 334.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ef1a154-6da1-47c5-8c80-dcf6630f9b69")
+		)
+		(pin "2"
+			(uuid "a649b933-e1aa-4713-b055-7370e1c968d0")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:GND")
+		(at 25.4 168.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a85e8160-735e-4f56-a358-ff60c15610a6")
+		(property "Reference" "#PWR033"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 16.51 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 16.51 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,6 +12292,98 @@
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:GND")
+		(at 274.32 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9b94e2a-d715-40cb-937f-43eb7addb77a")
+		(property "Reference" "#PWR079"
+			(at 274.32 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 265.43 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 265.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0732f19-9bf5-4d96-b20a-b83acec4d62f")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -10022,6 +12862,93 @@
 		)
 	)
 	(symbol
+		(lib_id "kria-k26-devboard:TCAN1042HVDQ1")
+		(at 298.45 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d65baceb-9ad0-4119-b492-1eedb4f80610")
+		(property "Reference" "U62"
+			(at 282.194 89.916 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TCAN1042HVDQ1"
+			(at 289.56 92.456 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:D0008A_L"
+			(at 298.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tcan1042hv-q1"
+			(at 298.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Automotive Fault Protected CAN Transceiver with CAN FD"
+			(at 298.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b992b32a-0e5e-4fe5-9f86-81ecf40f8da0")
+		)
+		(pin "3"
+			(uuid "d1182cc0-e6fb-4764-81ff-a94f62deda82")
+		)
+		(pin "6"
+			(uuid "37afc78b-18a8-40dd-80e0-9ff7d7b55b71")
+		)
+		(pin "7"
+			(uuid "4caeb88d-f655-4a79-9a57-a535b5bc0af7")
+		)
+		(pin "5"
+			(uuid "914b325a-de7a-4de3-8380-e05d5053d243")
+		)
+		(pin "8"
+			(uuid "bed0102e-9102-4a52-9cda-a0d4a3f26791")
+		)
+		(pin "4"
+			(uuid "25db99ed-c1d0-4953-84fc-69c62acc51fb")
+		)
+		(pin "1"
+			(uuid "89b36a65-89d0-4eba-8728-5bedd1809e18")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "U62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kria-k26-devboard:GND")
 		(at 259.08 64.77 0)
 		(mirror y)
@@ -10108,6 +13035,418 @@
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:C_100n_0402")
+		(at 53.34 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e093ae62-9066-4f56-be1b-e67a46d88976")
+		(property "Reference" "C180"
+			(at 53.975 142.8877 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 49.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
+			(at 58.42 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 63.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 60.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 53.975 146.6977 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 30.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 27.94 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 25.4 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 22.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd20a967-dc5e-4917-86bd-0bd3d2e93001")
+		)
+		(pin "2"
+			(uuid "cb1fd641-bead-43f3-84f7-6b69eff3b313")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "C180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:C_100n_0402")
+		(at 332.74 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e260dd62-a546-45a8-8a77-320efad214ca")
+		(property "Reference" "C175"
+			(at 332.486 103.632 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 332.74 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
+			(at 337.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+			(at 332.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 332.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 337.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 337.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 332.994 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 353.06 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 353.06 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 353.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 353.06 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82cc1d02-08b9-4857-b2c5-242d49da024f")
+		)
+		(pin "2"
+			(uuid "61dc0e59-1de9-48ef-9cd1-f124e91d5dca")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "C175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:PinHeader_1x2_P2.54mm_Drill1.02mm")
+		(at 322.58 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e27274af-bce2-4049-8211-503a0b7f5691")
+		(property "Reference" "J18"
+			(at 316.23 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PinHeader_1x2_P2.54mm_Drill1.02mm"
+			(at 318.77 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:PinHeader_1x2_P2.54mm_Drill1.02mm"
+			(at 317.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/datasheet/2/181/M20-999-1218971.pdf"
+			(at 317.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "M20-9990246"
+			(at 319.786 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 317.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 302.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 302.26 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d46a5bda-0ea3-4372-8764-d5e4aa537c75")
+		)
+		(pin "2"
+			(uuid "33d182fa-571a-4300-8ecd-9c717076de59")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -10271,25 +13610,35 @@
 		)
 	)
 	(symbol
-		(lib_id "kria-k26-devboard:C_100n_0402")
-		(at 52.07 142.24 270)
+		(lib_id "kria-k26-devboard:GND")
+		(at 355.6 130.81 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e3c1f0d1-1f83-4b9c-b4e0-55b073cf4e1c")
-		(property "Reference" "C29"
-			(at 52.705 142.8877 90)
+		(fields_autoplaced yes)
+		(uuid "e3791b1d-3f5d-4132-870d-e04f1c13bfed")
+		(property "Reference" "#PWR097"
+			(at 355.6 137.16 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "C_100n_0402"
-			(at 48.26 142.24 0)
+		(property "Value" "GND"
+			(at 355.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,19 +13648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
-			(at 57.15 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
-			(at 52.07 142.24 0)
+		(property "Datasheet" ""
+			(at 346.71 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,7 +13660,100 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 142.24 0)
+			(at 355.6 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 346.71 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 346.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97712ae2-f4e1-42e0-b337-c715710578f3")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:C_100n_0402")
+		(at 74.93 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3c1f0d1-1f83-4b9c-b4e0-55b073cf4e1c")
+		(property "Reference" "C29"
+			(at 75.565 142.8877 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 71.12 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
+			(at 80.01 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+			(at 74.93 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10330,7 +13761,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 62.23 147.32 0)
+			(at 85.09 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,7 +13772,7 @@
 			)
 		)
 		(property "MPN" "GRM155R61H104KE14D"
-			(at 59.69 147.32 0)
+			(at 82.55 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10352,7 +13783,7 @@
 			)
 		)
 		(property "Val" "100n"
-			(at 52.705 146.6977 90)
+			(at 75.565 146.6977 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +13793,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 29.21 162.56 0)
+			(at 52.07 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10373,7 +13804,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 26.67 162.56 0)
+			(at 49.53 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10384,7 +13815,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 24.13 162.56 0)
+			(at 46.99 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10394,7 +13825,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 21.59 162.56 0)
+			(at 44.45 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,6 +13844,155 @@
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:C_100n_0402")
+		(at 353.06 91.44 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e74d4ea8-323b-4edc-b152-bd1c024b6751")
+		(property "Reference" "C176"
+			(at 352.425 92.0877 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 356.87 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kria-k26-devboard-footprints:C_0402_1005Metric"
+			(at 347.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf"
+			(at 353.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 353.06 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 342.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 345.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "100n"
+			(at 352.425 95.8977 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 375.92 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 378.46 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 381 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 383.54 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7160404c-33ee-4271-99a5-fe6c0e2b1091")
+		)
+		(pin "2"
+			(uuid "abf74d8d-943c-47e6-8177-b6ca773c0e3a")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "C176")
 					(unit 1)
 				)
 			)
@@ -11463,6 +15043,189 @@
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:GND")
+		(at 238.76 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc5d8a99-653b-45a3-8daf-526885d41904")
+		(property "Reference" "#PWR071"
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 247.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 247.65 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0b2793b-8a9f-4f86-81a3-4337171f8f81")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kria-k26-devboard:GND")
+		(at 367.03 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc770278-141d-4f8c-8502-463c0c6494de")
+		(property "Reference" "#PWR099"
+			(at 367.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 367.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 367.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 358.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 358.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "984026f2-ca2f-4a1d-ab94-792ad9753a47")
+		)
+		(instances
+			(project "kria-k26-devboard"
+				(path "/c38c692d-dd84-4abf-ab35-63104b24d124/aa08b20a-8b73-4b9b-8d0f-0793fe6ed11b"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
