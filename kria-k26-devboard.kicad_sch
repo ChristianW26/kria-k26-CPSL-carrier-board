@@ -1306,6 +1306,16 @@
 		)
 		(uuid "27a34b54-36da-4555-8ce9-34ab0004e4cc")
 	)
+	(bus
+		(pts
+			(xy 151.13 101.6) (xy 179.07 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2879c061-02c6-4d3f-8f0c-2ebdb60c5427")
+	)
 	(wire
 		(pts
 			(xy 248.92 62.23) (xy 248.92 60.96)
@@ -7157,6 +7167,16 @@
 				(justify left)
 			)
 		)
+		(pin "{HPC[6..0]}" input
+			(at 179.07 101.6 180)
+			(uuid "b607832d-00ca-47de-be50-721888c0bac6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "kria-k26-devboard"
 				(path "/c38c692d-dd84-4abf-ab35-63104b24d124"
@@ -8484,6 +8504,16 @@
 		(pin "{HPA[6..0]}" input
 			(at 151.13 99.06 0)
 			(uuid "18eef204-eacb-43ae-957a-9cffdff3a7ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{HPC[6..0]}" input
+			(at 151.13 101.6 0)
+			(uuid "0c02e777-e171-484c-aa17-ef0972f146ab")
 			(effects
 				(font
 					(size 1.27 1.27)
