@@ -5,5 +5,5 @@
       (constraint skew (min -0.1mm) (opt 0mm)(max 0.1mm)))
 (rule "target length and skew"
       (condition "A.hasNetclass('LVDS_2')")
-      (constraint length (min 50mm) (opt 100mm) (max 150mm))
+      (constraint length (min 51.9mm) (opt 52mm) (max 52.1mm))
       (constraint skew (min -0.1mm) (opt 0mm)(max 0.1mm)))
