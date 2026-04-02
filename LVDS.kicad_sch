@@ -12100,10 +12100,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a7d27da0-f89e-444d-845f-8273036ea04c")
+			(uuid "a7d27da0-f89e-444d-845f-8273036ea04d")
 		)
 		(pin "2"
-			(uuid "61559bd9-acee-4a0f-be04-87fc87a4e953")
+			(uuid "61559bd9-acee-4a0f-be04-87fc87a4e954")
 		)
 		(instances
 			(project ""

@@ -73,19 +73,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|155904550|52013500|00000000-0000-0000-0000-0000625937cf|21da7620-60c4-4553-8836-85dcdd6ae5c5",
-          ""
-        ],
-        [
           "silk_edge_clearance|163855000|152000000|3a63b66b-a3a1-4cdc-aed7-62a551748866|b95d231b-2229-4793-9816-a4a40ea66e0c",
-          ""
-        ],
-        [
-          "silk_edge_clearance|172058550|52013500|00000000-0000-0000-0000-0000625937cf|9680cde4-add4-40fc-a117-59c6b4ed5ea2",
-          ""
-        ],
-        [
-          "silk_edge_clearance|172058550|52013500|00000000-0000-0000-0000-0000625937cf|bb33081c-0d33-4d33-9116-0b8e65ace5f3",
           ""
         ],
         [
@@ -526,6 +514,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"

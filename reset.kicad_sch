@@ -10911,7 +10911,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "kria-k26-devboard-footprints:QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A"
+		(property "Footprint" "kria-k26-devboard-footprints:74LVC07ABQ_115"
 			(at 295.91 119.38 0)
 			(effects
 				(font
@@ -11067,7 +11067,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "kria-k26-devboard-footprints:QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A"
+		(property "Footprint" "kria-k26-devboard-footprints:74LVC07ABQ_115"
 			(at 295.91 100.33 0)
 			(effects
 				(font
@@ -11223,7 +11223,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "kria-k26-devboard-footprints:QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A"
+		(property "Footprint" "kria-k26-devboard-footprints:74LVC07ABQ_115"
 			(at 295.91 87.63 0)
 			(effects
 				(font
@@ -11379,7 +11379,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "kria-k26-devboard-footprints:QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A"
+		(property "Footprint" "kria-k26-devboard-footprints:74LVC07ABQ_115"
 			(at 295.91 74.93 0)
 			(effects
 				(font
@@ -11535,7 +11535,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "kria-k26-devboard-footprints:QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A"
+		(property "Footprint" "kria-k26-devboard-footprints:74LVC07ABQ_115"
 			(at 295.91 62.23 0)
 			(effects
 				(font
@@ -11692,7 +11692,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "kria-k26-devboard-footprints:QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A"
+		(property "Footprint" "kria-k26-devboard-footprints:74LVC07ABQ_115"
 			(at 331.47 144.78 0)
 			(effects
 				(font
@@ -20081,7 +20081,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "kria-k26-devboard-footprints:QFN-14-1EP_2.5x3mm_EP1.15x1.65mm_ONSemi_MLP14A"
+		(property "Footprint" "kria-k26-devboard-footprints:74LVC07ABQ_115"
 			(at 295.91 134.62 0)
 			(effects
 				(font
