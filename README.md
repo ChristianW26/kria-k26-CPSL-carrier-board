@@ -54,3 +54,20 @@ The on-board camera connector is electrically compatible with several video acce
 ## License
 
 This project is published under the [Apache-2.0](LICENSE) license.
+
+## CPSL Edits
+* Most up to date branch currently is level shifter
+* Edits made in this branch included swapping 74LCX07_QFN (U36) footprint to 74LCX07BQX and swappping ethernet connector to 5-2337992-8 due to obsolete part
+* LVDS_and_can branch handled adding the radar connector and CAN transceiver
+
+Removed components: 
+* Power over Ethernet
+* Camera Interface connector
+
+Added components:
+* Samtec QSH-030-01-L-D-A
+* TCAN1042-Q1 CAN Transceiver
+
+Notes for ordering with JLCPCB
+* Check in advance to get an understanding of stock and if any parts or obsolete
+* It's easier to fix the MPN/footprint name in the BOM rather than having to update JLC's site everytime
